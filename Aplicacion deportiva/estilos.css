@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(90deg, rgb(219, 184, 159) 0%, rgb(223, 156, 101) 45%, rgb(232, 118, 47) 100%);
+}
+
+#cajafuera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.caja {
+    width: 700px;
+    height: 225px;
+    border: 5px black solid;
+    background: rgb(226, 209, 181);
+    margin-top: 10px;
+}
+
+.cajaCalendario {
+    width: 120px;
+    height: 300px;
+    border: 5px black solid;
+    background: rgb(226, 209, 181);
+    margin-top: 10px;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+button.centrado {
+    width: 110px;
+    /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    border-color: #eeb44f;
+    cursor: pointer;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    text-shadow: inset 0px 1px 0px #cc9f52;
+    background: linear-gradient(#ffc477, #fb9e25);
+    padding: 10px;
+}
+
+hr {
+    height: 10px;
+    background-color: black;
+}
+
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+#infobox3 p {
+    line-height: 58px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#infobox3 p a {
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+form {
+    position: fixed;
+    top: 0px;
+    right: 200px;
+}
+
+input {
+    background: #fb9e25;
+    border: 5px solid #ffc477;
+    border-radius: 10px 10px 10px 10px;
+    color: #000000;
+    font-size: 30px;
+    padding: 15px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+}
